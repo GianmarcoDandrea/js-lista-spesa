@@ -20,7 +20,9 @@ insertBtn.addEventListener("click", function () {
     
     while(i < shoppingList.length ) {
         itemList += `
-                    <li>${shoppingList[i]}</li>`;
+                    <li>
+                    <input type="checkbox" name="" id=""><span class="mx-2">${shoppingList[i]}</span>
+                    </li>`;
     
         console.log(itemList);
         
